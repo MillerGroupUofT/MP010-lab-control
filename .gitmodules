@@ -1,0 +1,6 @@
+[submodule "laser-system/regen-monitor"]
+	path = laser-system/regen-monitor
+	url = https://github.com/cpkm/regen-monitor.git
+[submodule "laser-system/rod-monitor"]
+	path = laser-system/rod-monitor
+	url = https://github.com/cpkm/Rod-Monitor.git
