@@ -1,5 +1,15 @@
 # Operature procedure for MP010 laser system
 
+## **WARNING** 
+The rod amplifier generates outputs as high as **100 W**, requiring pump powers up to **250 W**. **WEAR SAFETY GOOGLES** at all times. Take precautions and be vigilent!
+
+- Emission wavelength: 1030 nm
+- Pump wavelength: 980 nm
+- Output pulse energy: 100 uJ
+- Peak output power: >100 MW
+- Max pump power (CW): 250 W
+- Required goggle OD: 5.5-6 @ 970-1080 nm
+
 ## Turn on procedure for MP010 laser rod amplifier
 1. Turn on the water chiller.  Usually, it will be set to 22.5° C.
 2. Turn on the oscillator.
@@ -16,15 +26,15 @@
     4.	Plug in the positive leads of both outputs.
 4.	Turn on the fibre preamps.
     1.	Turn both preamp (“Preamp A” and “Preamp B”) power supplies on following the same steps as 2a-2d (the order in which the power supplies are turned on is not important).
-    2.	Turn preamp A current to ~600 mA at a medium pace.
-    3.	Turn preamp B current to ~300 mA at a medium pace.
+    2.	Turn preamp A current to ~600-900 mA at a medium pace.
+    3.	Turn preamp B current to ~300-500 mA at a medium pace.
 5.	Open the shutter of the preamp box, ensure that the laser is present with a detector card or IR viewer.
 6.	Turn on the Laser Electronics controller for the fibre amplifier by turning the key.
 7.	Change the trigger mode on the AOM function generator to “external” (press “trig” and then use the arrow keys to switch to “external”).  Make sure the “rate” indicator light is lit up in red, if not, return the trigger mode to “internal” and diagnose the problem.
 8.	On the Laser Electronics controller, navigate in the menu so the cursor is pointing to “power” then press the “laser on” button.
 9.	Turn on the Xantrex power supply for the rod.
     1.	Make sure the current is turned all the way down.
-    2.	Open the rod emergency shutdown (turn the button so that is in the up position).
+    2.	Open the rod emergency shutdown (turn the big-red-button so that is in the out position).
     3.	Press standby on the Xantrex power supply.
 10.	Turn up the fibre amplifier power until the optical interlock for the rod is met.  
     1.	If the interlock has been met, the light above the current knob on the Xantrex power supply should turn on, and the light above “standby” should turn off.  This will usually happen at ~13W.  
@@ -34,7 +44,7 @@
     2.	Scan for devices.
     3.	Start monitor.
     4.	Turn up the current on the Xantrex power supply SLOWLY, while monitoring the power and temperature on the FibreRod Monitor program – If sudden jumps in temperature are detected, stop and diagnose for a problem. A threshold is expected around 2A.
-    5.	When 10W is reached, ensure that there is an increase in the rod output power using the power meter in the beam path.
+    5.	When 10W pump power is reached, ensure that there is an increase in the rod output power using the power meter in the output beam path.
     6.	Continue increasing the power SLOWLY to the desired level (tested up to 40W as of 06/12/2017).
 
 ## Turn off procedure:
